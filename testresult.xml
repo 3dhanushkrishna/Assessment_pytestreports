@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="5" skipped="6" tests="21" time="0.656" timestamp="2022-03-30T07:17:05.748845" hostname="Vijay"><testcase classname="test_Program" name="test_Amstrong[153-True]" time="0.005"><failure message="assert False == True">a = 153, b = True
+
+    @pytest.mark.parametrize("a,b",[(153,True),(370,True),(371,False),(407,True)])
+    def test_Amstrong(a,b):
+        result = Program.Amstrong(a)
+&gt;       assert result == b
+E       assert False == True
+
+test_Program.py:7: AssertionError</failure></testcase><testcase classname="test_Program" name="test_Amstrong[370-True]" time="0.003"><failure message="assert False == True">a = 370, b = True
+
+    @pytest.mark.parametrize("a,b",[(153,True),(370,True),(371,False),(407,True)])
+    def test_Amstrong(a,b):
+        result = Program.Amstrong(a)
+&gt;       assert result == b
+E       assert False == True
+
+test_Program.py:7: AssertionError</failure></testcase><testcase classname="test_Program" name="test_Amstrong[371-False]" time="0.003" /><testcase classname="test_Program" name="test_Amstrong[407-True]" time="0.004"><failure message="assert False == True">a = 407, b = True
+
+    @pytest.mark.parametrize("a,b",[(153,True),(370,True),(371,False),(407,True)])
+    def test_Amstrong(a,b):
+        result = Program.Amstrong(a)
+&gt;       assert result == b
+E       assert False == True
+
+test_Program.py:7: AssertionError</failure></testcase><testcase classname="test_Program" name="test_Divisible8[8-True]" time="0.002"><skipped type="pytest.skip" message="no need">C:\Users\ELCOT\PycharmProjects\Assessment in pytest\test_Program.py:9: no need</skipped></testcase><testcase classname="test_Program" name="test_Divisible8[10-False]" time="0.001"><skipped type="pytest.skip" message="no need">C:\Users\ELCOT\PycharmProjects\Assessment in pytest\test_Program.py:9: no need</skipped></testcase><testcase classname="test_Program" name="test_Divisible8[88-True]" time="0.002"><skipped type="pytest.skip" message="no need">C:\Users\ELCOT\PycharmProjects\Assessment in pytest\test_Program.py:9: no need</skipped></testcase><testcase classname="test_Program" name="test_Divisible8[73-True]" time="0.002"><skipped type="pytest.skip" message="no need">C:\Users\ELCOT\PycharmProjects\Assessment in pytest\test_Program.py:9: no need</skipped></testcase><testcase classname="test_Program" name="test_Smallest[2-1-4-1]" time="0.004" /><testcase classname="test_Program" name="test_Smallest[4-2-5-2]" time="0.004" /><testcase classname="test_Program" name="test_Smallest[15-10-14-10]" time="0.003" /><testcase classname="test_Program" name="test_Smallest[12-32-34-10]" time="0.003"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_Program" name="test_Smallest[13-8-6-17]" time="0.003"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_Program" name="test_Evenorodd[14-True]" time="0.003" /><testcase classname="test_Program" name="test_Evenorodd[17-False]" time="0.003" /><testcase classname="test_Program" name="test_Evenorodd[10-True]" time="0.003" /><testcase classname="test_Program" name="test_Palindrome[121-True]" time="0.003" /><testcase classname="test_Program" name="test_Palindrome[123-True]" time="0.004"><failure message="assert False == True">a = '123', b = True
+
+    @pytest.mark.parametrize("a,b",[("121",True),("123",True),("1551",True),("120",False),("221",True)])
+    def test_Palindrome(a,b):
+        result = Program.Palindrome(a)
+&gt;       assert result == b
+E       assert False == True
+
+test_Program.py:29: AssertionError</failure></testcase><testcase classname="test_Program" name="test_Palindrome[1551-True]" time="0.003" /><testcase classname="test_Program" name="test_Palindrome[120-False]" time="0.004" /><testcase classname="test_Program" name="test_Palindrome[221-True]" time="0.003"><failure message="assert False == True">a = '221', b = True
+
+    @pytest.mark.parametrize("a,b",[("121",True),("123",True),("1551",True),("120",False),("221",True)])
+    def test_Palindrome(a,b):
+        result = Program.Palindrome(a)
+&gt;       assert result == b
+E       assert False == True
+
+test_Program.py:29: AssertionError</failure></testcase></testsuite></testsuites>
